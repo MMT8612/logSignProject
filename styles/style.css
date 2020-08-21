@@ -1,0 +1,16 @@
+body, .jumbotron { 
+    margin-left: 21%;
+    margin-right:21%;
+    padding-inline-start: 5%;
+    padding-inline-end: 5%;
+    padding-top: 2%;
+   }
+
+   label[for="login"] {
+       color : black;
+        margin-left: 39%;
+        font-size: xx-large;
+        font-family:'Times New Roman', Times, serif;
+   }
+   p {margin-left: 35%;
+      font-size:large}

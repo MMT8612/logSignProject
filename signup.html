@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="jumbotron">
+        <form id="myForm" method="post" action="">
+            <div>
+                <label for="login" >signup</label>
+            </div>
+            <div id="div5"></div>
+            <div class="form-group">
+                <label for="firstName">Firstname</label>
+                <input type="text"  placeholder="Enter firstname" name="fname" id="fname" class="form-control" value=""><div id="div1"></div>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Lastname</label>
+                <input type="text"  placeholder="Enter lastname" name="lname" id="lname" class="form-control" value=""><div id="div2"></div>
+            </div>
+            <div class="form-group">
+                <label for="userName">Username</label>
+                <input type="text" onblur="checkUsername()" placeholder="Enter username" name="uname" id="uname" class="form-control" value=""><div id="div3"></div>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" onblur="checkPassword()" placeholder="Enter Password" name="pwd" id="pwd" class="form-control" value=""><div id="div4"></div>
+            </div>
+            <input type="submit" id="btn" value="signup" class="btn btn-primary "/>
+        </form>
+    </div>
+    <p id="para">
+        Already have account?
+        <a href="index.html"><span class="abc">Log in</span></a>  
+    </p>
+     <script src="scripts/signupForm.js"></script>
+</body>
+</html>
