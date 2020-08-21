@@ -4,7 +4,7 @@
 
      $host = "127.0.0.1";
      $dbUsername = "root";
-     $dbPassword = "France@90";
+     $dbPassword = "";
      $dbname = "userInfo";
 
      $conn = new mysqli($host,$dbUsername,$dbPassword,$dbname);
